@@ -42,7 +42,6 @@ class BpfLoaderRcUtilsTest {
                 rlimit memlock 1073741824 1073741824
                 oneshot
                 # comment 漢字
-                reboot_on_failure reboot,bpfloader-failed
                 updatable
             
             #test comment
@@ -57,7 +56,6 @@ class BpfLoaderRcUtilsTest {
             "user root",
             "rlimit memlock 1073741824 1073741824",
             "oneshot",
-            "reboot_on_failure reboot,bpfloader-failed",
             "updatable"
         )
 

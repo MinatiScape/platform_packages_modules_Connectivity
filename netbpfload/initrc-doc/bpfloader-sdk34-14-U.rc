@@ -7,5 +7,4 @@ service bpfloader /system/bin/bpfloader
     user root
     rlimit memlock 1073741824 1073741824
     oneshot
-    reboot_on_failure reboot,bpfloader-failed
     updatable

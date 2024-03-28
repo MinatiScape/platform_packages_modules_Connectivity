@@ -46,7 +46,6 @@ public class BpfLoaderRcUtils {
             "capabilities CHOWN SYS_ADMIN NET_ADMIN",
             "rlimit memlock 1073741824 1073741824",
             "oneshot",
-            "reboot_on_failure reboot,bpfloader-failed",
             "updatable"
     );
 
@@ -57,7 +56,6 @@ public class BpfLoaderRcUtils {
             "user root",
             "rlimit memlock 1073741824 1073741824",
             "oneshot",
-            "reboot_on_failure reboot,bpfloader-failed",
             "updatable"
     );
 
@@ -68,7 +66,6 @@ public class BpfLoaderRcUtils {
             "user root",
             "rlimit memlock 1073741824 1073741824",
             "oneshot",
-            "reboot_on_failure reboot,bpfloader-failed",
             "updatable"
     );
 
